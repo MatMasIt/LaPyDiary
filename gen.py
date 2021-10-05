@@ -37,6 +37,6 @@ for ypath in years:
                 s = 0
             list+="\n\dayH{"+r.strftime("%A")+"}{"+str(day)+"}{"+str(title)+"}\n"
             for i in range(s,len(fileContent)):
-                list+=fileContent[i]+"\\\"
+                list+=fileContent[i]+'\\'
 modelTex=open("model.tex","r").read()
 open("final.tex","w").write(modelTex.replace("REPLACETHIS",list))
