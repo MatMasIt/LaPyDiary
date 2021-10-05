@@ -35,7 +35,7 @@ for ypath in years:
             else:
                 title = ""
                 s = 0
-            list+="\n\dayH{"+r.strftime("%A")+"}{"+str(day)+"}{"+str(title)+"}\n"
+            list+="\n\dayH{"+r.strftime("%A")+"}{"+str(day)+"}{"+str(title)+"}\\"
             for i in range(s,len(fileContent)):
                 list+=fileContent[i]+"\n"
 modelTex=open("model.tex","r").read()
