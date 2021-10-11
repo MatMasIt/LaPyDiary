@@ -1,4 +1,4 @@
-# LaPyDiary
+# LaPyDiary (/lapiˈdˈdaɪəri/)
 > Latex-python diary
 
 1. Edit model.text to your liking, you just need to keep the `REPLACETHIS` placeholder
