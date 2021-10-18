@@ -1,4 +1,7 @@
 # LaPyDiary (/lapiˈdˈdaɪəri/)
+
+![GitHub](https://img.shields.io/github/license/MatMasIt/LaPyDiary)
+
 > Latex-python diary
 
 1. Edit model.text to your liking, you just need to keep the `REPLACETHIS` placeholder
